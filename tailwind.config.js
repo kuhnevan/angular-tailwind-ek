@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   prefix: '',
   purge: {
@@ -14,7 +16,12 @@ module.exports = {
       black: '#0b032d',
       white: '#fdf2ee'
     },
-    extend: {},
+    screens: {
+      'xs': '475px',
+      ...defaultTheme.screens
+    },
+    extend: {
+    },
   },
   variants: {
     extend: {},
