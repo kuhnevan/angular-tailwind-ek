@@ -14,7 +14,8 @@ module.exports = {
       peach: '#ffb997',
       salmon: '#f67e7d',
       black: '#0b032d',
-      white: '#fdf2ee'
+      white: '#fdf2ee',
+      purple: '#843b62'
     },
     screens: {
       'xs': '475px',

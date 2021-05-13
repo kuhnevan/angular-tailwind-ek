@@ -1,0 +1,7 @@
+<div class="flex relative bg-salmon text-black dark:text-white justify-left items-center h-16 rounded-full" (mouseenter)="handleMouseover()" (mouseleave)="handleMouseout()">
+  <span class="pl-1">Larry</span>
+  <div *ngIf="hoverActivated" class="bg-purple bg-opacity-80 text-white absolute h-full w-full rounded-full top-1/2 transform -translate-y-1/2 divide-y divide-white">
+    <div class="btn">Edit</div>
+    <div class="btn">Delete</div>
+  </div>
+</div>
